@@ -1,0 +1,279 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+.banner{
+    background-color: #00ffff;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#name{
+    font-family: myfont;
+    font-size: 20vmin;
+    z-index: 1;
+}
+#full-name{
+    align-self: flex-end;
+    font-size: 10vmin;
+    z-index: 1;
+}
+@font-face{
+    font-family: myfont;
+    src: url(ProtestRevolution-Regular.ttf);
+
+}
+.element1{
+    background-color: violet;
+    opacity: .7;
+    border-radius: 50%;
+    position: fixed;
+    animation-name: bubble1;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.element2{
+    background-color: violet;
+    border-radius: 50%;
+    position: fixed;
+    animation-name: bubble2;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+#e1{
+    height: 10px;
+    width: 10px;
+    top: 50px;
+    right: 800px;
+}
+#e2{
+    height: 30px;
+    width: 30px;
+    top: 70px;
+    right: 1300px;
+}
+#e3{
+    height: 50px;
+    width: 50px;
+    top: 20px;
+    right: 100px;
+}
+#e4{
+    height: 70px;
+    width: 70px;
+    top: 90px;
+    right: 300px;
+}
+#e5{
+    height: 90px;
+    width: 90px;
+    top: 30px;
+    right: 1000px;
+}
+#e6{
+    height: 10px;
+    width: 10px;
+    top: 150px;
+    right: 80px;
+}
+#e7{
+    height: 30px;
+    width: 30px;
+    top: 70px;
+    right: 500px;
+}
+#e8{
+    height: 50px;
+    width: 50px;
+    top: 200px;
+    right: 1100px;
+}
+#e9{
+    height: 70px;
+    width: 70px;
+    top: 90px;
+    right: 800px;
+}
+#e10{
+    height: 90px;
+    width: 90px;
+    top: 200px;
+    right: 1400px;
+}
+#e11{
+    height: 10px;
+    width: 10px;
+    top: 200px;
+    right: 800px;
+}
+#e12{
+    height: 30px;
+    width: 30px;
+    top: 70px;
+    right: 1300px;
+}
+#e13{
+    height: 50px;
+    width: 50px;
+    top: 80px;
+    right: 600px;
+}
+#e14{
+    height: 70px;
+    width: 70px;
+    top: 190px;
+    right: 450px;
+}
+#e15{
+    height: 90px;
+    width: 90px;
+    top: 30px;
+    right: 1400px;
+}
+#e16{
+    height: 10px;
+    width: 10px;
+    top: 250px;
+    right: 210px;
+}
+#e17{
+    height: 30px;
+    width: 30px;
+    top: 270px;
+    right: 500px;
+}
+#e18{
+    height: 50px;
+    width: 50px;
+    top: 260px;
+    right: 300px;
+}
+#e19{
+    height: 70px;
+    width: 70px;
+    top: 280px;
+    right: 600px;
+}
+#e20{
+    height: 90px;
+    width: 90px;
+    top: 300px;
+    right: 100px;
+}
+@keyframes bubble1{
+    10%{
+        transform: translate(20px,-10px);
+    }
+    25%{
+        transform: translate(50px,30px);
+    }
+    50%{
+        transform: translate(0px,10px);
+    }
+    75%{
+        transform: translate(-50px,-30px);
+    }
+}
+@keyframes bubble2{
+    10%{
+        transform: translate(20px,10px);
+    }
+    25%{
+        transform: translate(-10px,30px);
+    }
+    50%{
+        transform: translate(30px,10px);
+    }
+    75%{
+        transform: translate(50px,-30px);
+    }
+}
+.box{
+    position: sticky;
+    top: -50vmin;
+    padding-bottom: 1vmin;
+    background-color: black;
+}
+.title{
+    padding: 4vmin;
+    color: violet;
+    text-align: center;
+    font-size: 7vmin;
+}
+.outer-box{
+    display: flex;
+    justify-content: center;
+    gap: 4vmin;
+    flex-wrap: wrap;
+    top: 100px;
+}
+.boxes{
+    height: 50vmin;
+    width: 40vmin;
+    border: 2px solid;
+    border-top-color: aqua;
+    border-bottom-color: violet;
+    border-left-color: aqua;
+    border-right-color: violet;
+    border-radius: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.inner-box{
+    height: 40vmin;
+}
+a{
+    display: block;
+}
+.dis{
+    font-size: 4vmin;
+    height: 5vmin;
+    color: violet;
+}
+.live{
+    padding-top: 1vmin;
+    text-align: center;
+    height: 5vmin;
+    color: aqua;
+}
+body{
+    overflow: overlay;
+}
+::-webkit-scrollbar{
+    width: 2vmin;
+}
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(aqua,violet);
+    border-radius: 10px;
+}
+.skills{
+    display: flex;
+    justify-content: center;
+    gap: 4vmin;
+    flex-wrap: wrap;
+    top: 100px;
+}
+.boxes{
+    height: 50vmin;
+    width: 40vmin;
+    border: 2px solid;
+    border-top-color: aqua;
+    border-bottom-color: violet;
+    border-left-color: aqua;
+    border-right-color: violet;
+    border-radius: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+img{
+    height: 35vmin;
+    width: 35vmin;
+    contain: content;
+}
