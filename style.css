@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     text-decoration: none;
+    color: white;
 }
 .banner{
     background-color: #00ffff;
@@ -13,11 +14,13 @@
     font-family: myfont;
     font-size: 20vmin;
     z-index: 1;
+    color: black;
 }
 #full-name{
     align-self: flex-end;
     font-size: 10vmin;
     z-index: 1;
+    color: black;
 }
 @font-face{
     font-family: myfont;
@@ -193,7 +196,7 @@
 }
 .box{
     position: sticky;
-    top: -50vmin;
+    top: -2000px;
     padding-bottom: 1vmin;
     background-color: black;
 }
@@ -211,35 +214,49 @@
     top: 100px;
 }
 .boxes{
-    height: 50vmin;
-    width: 40vmin;
-    border: 2px solid;
-    border-top-color: aqua;
-    border-bottom-color: violet;
-    border-left-color: aqua;
-    border-right-color: violet;
-    border-radius: 5%;
+    height: 400px;
+    width: 330px;
+    border-bottom: 2px solid violet;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
 }
+.detail{
+    height: 600px;
+    border: 2px solid;
+    border-top-color: aqua;
+    border-bottom-color: violet;
+    border-left-color: aqua;
+    border-right-color: violet;
+    border-radius: 15px;
+}
 .inner-box{
-    height: 40vmin;
+    padding-top: 0.5vmin;
+    height: 330px;
 }
 a{
     display: block;
 }
 .dis{
-    font-size: 4vmin;
-    height: 5vmin;
+    font-size: 30px;
+    height: 35px;
     color: violet;
 }
 .live{
-    padding-top: 1vmin;
     text-align: center;
     height: 5vmin;
     color: aqua;
+}
+.p{
+    font-size: 15px;
+    width: 310px;
+    color: aqua;
+    text-align: center;
+}
+.pi{
+    text-align: center;
+    color: violet;
 }
 body{
     overflow: overlay;
@@ -251,29 +268,54 @@ body{
     background: linear-gradient(aqua,violet);
     border-radius: 10px;
 }
+img{
+    height:n 300px;
+    width: 300px;
+    contain: content;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.title-1{
+    width: 120vmin;
+    padding: 4vmin;
+    color: violet;
+    text-align: center;
+    font-size: 5vmin;
+}
+.title-2{
+    width: 60vmin;
+    padding: 4vmin;
+    color: violet;
+    text-align: center;
+    font-size: 5vmin;
+}
 .skills{
+    width: 120vmin;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-top:2px solid aqua;
+}
+.skills{
+    width: 120vmin;
+    height: 60vmin;
     display: flex;
     justify-content: center;
     gap: 4vmin;
     flex-wrap: wrap;
     top: 100px;
 }
-.boxes{
-    height: 50vmin;
-    width: 40vmin;
-    border: 2px solid;
-    border-top-color: aqua;
-    border-bottom-color: violet;
-    border-left-color: aqua;
-    border-right-color: violet;
-    border-radius: 5%;
+.details{
+    width: 30vmin;
+}
+.more{
+    width: 60vmin;
+    height: 60vmin;
     display: flex;
     justify-content: center;
-    align-items: center;
     flex-wrap: wrap;
-}
-img{
-    height: 35vmin;
-    width: 35vmin;
-    contain: content;
+    border-top:2px solid aqua;
 }
