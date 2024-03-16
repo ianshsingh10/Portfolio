@@ -4,6 +4,19 @@
     text-decoration: none;
     color: white;
 }
+body{
+    overflow: overlay;
+    cursor: none;
+}
+.circle{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    z-index: 2;
+    position: fixed;
+    top: -50px;
+    left: -50px;
+}
 .banner{
     background-color: #00ffff;
     display: flex;
@@ -224,12 +237,18 @@
 }
 .detail{
     height: 600px;
-    border: 2px solid;
-    border-top-color: aqua;
-    border-bottom-color: violet;
-    border-left-color: aqua;
-    border-right-color: violet;
     border-radius: 15px;
+}#one{
+    border: 2px solid aqua;
+}
+#two{
+    border: 2px solid rgb(238, 67, 81);
+}
+#three{
+    border: 2px solid aqua;
+}
+#four{
+    border: 2px solid aqua;
 }
 .inner-box{
     padding-top: 0.5vmin;
@@ -258,15 +277,32 @@ a{
     text-align: center;
     color: violet;
 }
-body{
-    overflow: overlay;
+#one:hover{
+    transition: all ease-in;
+    background-color: #00ffff;
 }
+#two:hover{
+    transition: all ease-in;
+    background-color: rgb(238, 67, 81);
+}
+#three:hover{
+    transition: all ease-in;
+    background-color: #00ffff;
+}
+#four:hover{
+    transition: all ease-in;
+    background-color: #00ffff;
+}
+
 ::-webkit-scrollbar{
     width: 2vmin;
 }
 ::-webkit-scrollbar-thumb{
     background: linear-gradient(aqua,violet);
     border-radius: 10px;
+}
+::-webkit-scrollbar-track{
+    background: rgba(0, 0, 0, 1);
 }
 img{
     height:n 300px;
@@ -279,43 +315,41 @@ img{
     flex-wrap: wrap;
 }
 .title-1{
-    width: 120vmin;
-    padding: 4vmin;
-    color: violet;
+    width: 135vmin;
+    margin: 4vmin;
+    color: aqua;
     text-align: center;
     font-size: 5vmin;
 }
 .title-2{
-    width: 60vmin;
-    padding: 4vmin;
+    width: 45vmin;
+    margin: 4vmin;
     color: violet;
     text-align: center;
     font-size: 5vmin;
 }
 .skills{
-    width: 120vmin;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    border-top:2px solid aqua;
-}
-.skills{
-    width: 120vmin;
+    width: 135vmin;
     height: 60vmin;
     display: flex;
     justify-content: center;
     gap: 4vmin;
     flex-wrap: wrap;
     top: 100px;
+    border-top:2px solid aqua;
 }
 .details{
     width: 30vmin;
 }
 .more{
-    width: 60vmin;
+    width: 45vmin;
     height: 60vmin;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     border-top:2px solid aqua;
+}
+.sub{
+    font-size: 4vmin;
+    color: violet;
 }
